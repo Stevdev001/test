@@ -424,19 +424,21 @@ text-align: center;
   position: relative;
   display: flex;
   flex-direction: column;
-     padding-top: 5rem; 
-     right: 2.3rem; 
+   padding-top:  5rem; 
+    right: 1rem; 
     font-family: "Lato", sans-serif;
   font-weight: 100;
   font-style: normal;
   font-size: 1.5rem;
   color: #181A18;
+  margin: 0 auto;
+ 
 }
 
 #child-one{
   margin:0.8rem; 
   background-color: #E2F1E8;
-  width:22.6rem ;
+  width:21rem ;
   height: 13rem;
 padding-top: 3rem;
 border-radius: 2rem;
@@ -464,7 +466,7 @@ border-radius: 2rem;
 
 #child-two{
   background-color: #E2F1E8;
-  width:22.6rem ;
+  width:21rem ;
   height: 13rem;
 padding-top: 3rem;
 border-radius: 2rem;
@@ -472,7 +474,7 @@ border-radius: 2rem;
 
 #child-two h3{
   padding-top: 1.5rem;
-  margin-right:3rem;
+  margin-right:1.8rem;
 }
 
 #child-two p{
@@ -492,7 +494,7 @@ border-radius: 2rem;
 
 #child-three{
   background-color: #E2F1E8;
-  width:22.6rem ;
+  width:21rem ;
   height: 13rem;
 padding-top: 3rem;
 border-radius: 2rem;
@@ -501,7 +503,7 @@ margin:0.8rem;
 
 #child-three h3{
   padding-top: 1rem;
-  margin-right: 3rem;
+  margin-right: 1.8rem;
 }
 
 #child-three p{
@@ -520,7 +522,7 @@ margin:0.8rem;
 
 #child-four{
   background-color: #E2F1E8;
-  width:22.6rem ;
+  width:21rem ;
   height: 13rem;
 padding-top: 3rem;
 border-radius: 2rem;
@@ -529,7 +531,7 @@ margin-bottom: 3rem;
 
 #child-four h3{
   padding-top: 1.5rem;
-  margin-right:4rem;
+  margin-right:2rem;
 }
 
 #child-four p{
