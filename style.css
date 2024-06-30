@@ -347,7 +347,7 @@ span{
   border: none;
   background-color: white;
   font-size: 2rem;
-  left: 21rem;
+  left: 18.6rem;
   top: 2rem;
 }
 
@@ -603,7 +603,7 @@ flex-direction: row-reverse;
     width: 42%;
     margin: 0 auto;
     top: 5rem;
-    height: 15rem;
+    height: 17rem;
     right: 38rem;
   }
 
@@ -647,7 +647,7 @@ flex-direction: row-reverse;
   .text p{
     position: absolute;
     top: 6rem;
-    /* text-align: justify; */
+    
     margin:0rem;
     font-size: 1.4rem;
     left: 1rem;
