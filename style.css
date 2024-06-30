@@ -326,7 +326,9 @@ flex-direction: row-reverse;
 /* mobile screen responsive section*/
 
 @media only screen and (min-width: 360px) and (max-width:800px){
-
+     .general-container{
+      padding: 0px;
+     }
   ul{
     display: none;
   }
@@ -355,6 +357,7 @@ span{
   position: relative;
   background-image: url("./images/Image.png");
   background-size: cover;
+  min-width: 100%;
 }
 
 .text-overlay{
