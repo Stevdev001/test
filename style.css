@@ -8,6 +8,7 @@
 body{
   font-weight: 100;
   font-style: normal;
+  font-family: 'lato', sans-serif;
 }
 .container-first-section {
   background-image: url("./images/Image (1).png");
@@ -41,6 +42,7 @@ ul {
 
 ul li:hover {
   /* background-color: #ddd; */
+  text-decoration: underline;
 }
 
 #living{
@@ -203,9 +205,11 @@ border-radius: 2rem;
    left: 2.3rem;
    
 }
-#child-one img{
+#child-one i{
   position: absolute;
   top: 7rem;
+  right: 67rem;
+  font-size: 1.4rem;
 }
 
 #child-two{
@@ -220,7 +224,7 @@ margin:0.8rem;
 #child-two h3{
   
   padding-top: 1.5rem;
-  padding-right: 2.3rem;
+  padding-right: 4.9rem;
 }
 
 #child-two p{
@@ -229,12 +233,14 @@ margin:0.8rem;
   text-align: justify;
   line-height: 1.2rem;
   margin: 0;
-   left: 21.1rem;
+   left: 19.8rem;
    
 }
-#child-two img{
-  left: 19.1rem;
-top: 7.5rem;
+#child-two i{
+  position: absolute;
+  right: 49.6rem;
+top: 7rem;
+font-size: 1.4rem;
 }
 
 #child-three{
@@ -259,9 +265,11 @@ margin:0.8rem;
   margin: 0;
    left: 38.5rem;
 }
-#child-three img{
-  margin-left: 2.8rem;
-top: 7.3rem;
+#child-three i{
+  position: absolute;
+  right: 31rem;
+top: 7rem;
+font-size: 1.4rem;
 }
 
 #child-four{
@@ -275,7 +283,7 @@ margin:0.8rem;
 
 #child-four h3{
   padding-top: 1.5rem;
-  padding-right: 2.3rem;
+  padding-right: 4rem;
 }
 
 #child-four p{
@@ -284,12 +292,14 @@ margin:0.8rem;
   text-align: justify;
   line-height: 1.2rem;
   margin: 0;
-   left: 58rem;
+   left: 57rem;
 }
 
-#child-four img{
-  left:56rem;
-  top: 7.2rem;
+#child-four i{
+  position: absolute;
+  right: 13rem;
+top: 7rem;
+font-size: 1.4rem;
 }
 
 .feature-container-child img{
@@ -328,27 +338,18 @@ flex-direction: row-reverse;
   #living{
    width: 10rem;
     position: absolute;
-  right: 16rem;
- padding-top: 0.5rem;
+  right: 15.2rem;
+ padding-top: 0.8rem;
 }
 span{
   display: flex;
    position: absolute;
   border: none;
-background-color: white;
-font-size: 2rem;
-left: 21rem;
-top: 2rem;
+  background-color: white;
+  font-size: 2rem;
+  left: 21rem;
+  top: 2rem;
 }
-/* .Hamburg{
-  position: absolute;
-  display: none;
-  border: none;
-background-color: white;
-font-size: 2rem;
-top: 1.5rem ;
-left: 21rem;
-} */
 
 .container-first-section {
   position: relative;
@@ -367,7 +368,6 @@ height: 12.4rem;
 .contain-grid {
 position: relative;
   display: grid;
-  left: 0.2rem;
 }
 
 .images-child{
@@ -422,7 +422,7 @@ text-align: center;
   display: flex;
   flex-direction: column;
      padding-top: 5rem; 
-     right: 1.8rem; 
+     right: 2.3rem; 
     font-family: "Lato", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -454,9 +454,9 @@ border-radius: 2rem;
   white-space: nowrap;
 }
 
-#child-one img{
-  position: absolute;
-  top: 7rem;
+#child-one i{
+ left:3rem;
+  font-size: 1.9rem;
 }
 
 #child-two{
@@ -469,7 +469,7 @@ border-radius: 2rem;
 
 #child-two h3{
   padding-top: 1.5rem;
-  margin-right:4.5rem;
+  margin-right:3rem;
 }
 
 #child-two p{
@@ -478,12 +478,13 @@ border-radius: 2rem;
   text-align: justify;
   line-height: 1.4rem;
   margin: 0;
-   left:2.9rem;
+   left:2.5rem;
 }
 
-#child-two img{
-  left: 1.2rem;
-top: 22rem;
+#child-two i{
+  left: 3rem;
+  top: 22rem;
+  font-size: 1.9rem;
 }
 
 #child-three{
@@ -497,7 +498,7 @@ margin:0.8rem;
 
 #child-three h3{
   padding-top: 1rem;
-  margin-right: 2.5rem;
+  margin-right: 3rem;
 }
 
 #child-three p{
@@ -508,9 +509,10 @@ margin:0.8rem;
    top: 40.5rem;
 }
 
-#child-three img{
-  margin-left: 2.8rem;
-top: 36rem;
+#child-three i{
+  left:3rem;
+  top: 36rem;
+  font-size: 1.9rem;
 }
 
 #child-four{
@@ -524,7 +526,7 @@ margin-bottom: 3rem;
 
 #child-four h3{
   padding-top: 1.5rem;
-  margin-right:5.5rem;
+  margin-right:4rem;
 }
 
 #child-four p{
@@ -535,9 +537,10 @@ margin-bottom: 3rem;
    left: 3rem;
 }
 
-#child-four img{
-  left:2rem;
+#child-four i{
+  left:1.8rem;
   top: 51rem;
+  font-size: 1.9rem;
 }
 
 .feature-container-child img{
@@ -575,15 +578,15 @@ flex-direction: row-reverse;
   #living {
     width: 23rem;
    
-    right: 40rem;
-    padding-top: 2rem;
+    right: 38rem;
+    padding-top: 2.8rem;
   }
 
   .logo span{
     position: absolute;
-    padding-left: 36rem;
-    padding-top: 1rem;
-   
+    padding-left: 34rem;
+   font-size: 3rem;
+   padding-top: 1rem;
   }
 
 
@@ -597,11 +600,11 @@ flex-direction: row-reverse;
 
   .text-overlay {
     position: absolute;
-    width: 39%;
+    width: 42%;
     margin: 0 auto;
     top: 5rem;
     height: 15rem;
-    right: 41rem;
+    right: 38rem;
   }
 
 .text-overlay p{
@@ -614,6 +617,7 @@ flex-direction: row-reverse;
 }
   .contain-grid {
  flex-direction: column;
+ top: 5rem;
   
 }
   .images {
@@ -621,6 +625,7 @@ flex-direction: row-reverse;
     grid-template-columns: 2fr 2fr;
     position: relative;
     margin: 0 auto;
+    right: 10rem;
     top: 5rem;
   }
 
@@ -631,31 +636,34 @@ flex-direction: row-reverse;
   .text {
     position: absolute;
     display: flex;
-    width: 100%;
+    width: 37%;
     height: 23.6rem; 
     background-color: #ddd;
-    border-radius: 3rem 3rem 3rem 3rem;
-    top: 35rem;
+    border-radius: 0rem 3rem 3rem 0rem;
+    top: 5rem;
     padding-bottom: 10rem;
+    left: 37rem;
   }
-.text p{
+  .text p{
     position: absolute;
-    top: 11.3rem;
-    text-align: justify;
-    left:1rem;
-    line-height: 2.8rem;
-    font-size: 2rem;
+    top: 6rem;
+    /* text-align: justify; */
+    margin:0rem;
+    font-size: 1.4rem;
+    left: 1rem;
+    align-content: center;
+    line-height: 1.8rem;
 }
 
 .text h2{
  position: absolute;
-  font-size: 3.7rem;
-  top: 5rem;
-  left:12rem ;
+  font-size: 2rem;
+  top: 3rem;
+  left:1rem ;
+  white-space: nowrap;
 }
 
   .feature-container {
-    padding-top: 20rem;
     margin: 3rem;
     margin-left:5rem;
     font-size: 2rem;
@@ -667,7 +675,7 @@ flex-direction: row-reverse;
     position: relative;
     display: flex;
     flex-direction: row;
-    right: 5rem;
+    right: 5.6rem;
     padding-bottom: 10rem;
     font-family: "Lato";
     padding-top: 6rem;
@@ -697,14 +705,14 @@ flex-direction: row-reverse;
     margin: 0;
     left: 1.8rem;
   }
-  #child-one img {
+  #child-one i {
     font-size: 2.5rem;
     padding-top: 8rem;
   }
 
   #child-two {
     position: absolute;
-    left: 15.4rem;
+    left: 14.5rem;
     top: 12.2rem;
     height: 15rem;
     width: 15rem;
@@ -725,15 +733,15 @@ flex-direction: row-reverse;
     left: 1.8rem;
   }
 
-  #child-two img {
+  #child-two i {
     position: absolute;
     font-size: 2.5rem;
-   top: 3rem;
+    top: 2rem;
   }
 
   #child-three {
     position: absolute;
-    left: 31rem;
+    left: 30rem;
     top: 12.2rem;
     height: 15rem;
     width: 16rem;
@@ -756,20 +764,19 @@ flex-direction: row-reverse;
  
   }
 
-  #child-three img {
-    font-size: 2.5rem;
+  #child-three i {
      position: absolute;
     font-size: 2.5rem;
-    top: 3rem;
+    top: 2rem;
 
   }
 
   #child-four {
     position: absolute;
-    left: 47.7rem;
+    left: 46.5rem;
     top: 12.2rem;
     height: 15rem;
-    width: 14rem;
+    width: 13rem;
     border-radius: 1.6rem;
   }
 
@@ -788,11 +795,10 @@ flex-direction: row-reverse;
     left: 1.8rem;
   }
 
-  #child-four img {
-    font-size: 2.5rem;
+  #child-four i {
      position: absolute;
     font-size: 2.5rem;
-    top: 3rem;
+    top: 2rem;
   }
 
 
