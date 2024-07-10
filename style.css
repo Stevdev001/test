@@ -10,6 +10,7 @@ body {
   font-weight: 100;
   font-style: normal;
   font-family: "lato", sans-serif;
+  overflow-x: hidden;
 }
 
 .container-first-section {
@@ -46,7 +47,7 @@ ul {
 
 ul li:hover {
   text-decoration: underline;
-  color: gray;
+  color: rgb(179, 30, 30);
 }
 
 #living {
@@ -55,7 +56,7 @@ ul li:hover {
 
 .text-overlay {
   background-color: white;
-  min-width: 32%;
+  width: 38%;
   height: 15rem;
   display: flex;
   top: 10rem;
@@ -67,14 +68,16 @@ ul li:hover {
 .text-overlay h1 {
   position: absolute;
   line-height: 2.5rem;
-  padding-left: 1rem;
+  right: 9rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding-top: 1rem;
+  white-space: nowrap;
 }
 .text-overlay P {
-  padding-left: 1rem;
-  padding-top: 7rem;
-  font-size: 1rem;
+  position:absolute;
+  right: 1rem;
+  padding-top: 9rem;
+  white-space: nowrap;
 }
 
 .contain-grid {
@@ -708,7 +711,7 @@ b {
   }
 
   .text-overlay {
-    max-width: 20.9rem;
+    /* max-width: 20.9rem; */
   }
   #child-one h3 {
     padding-left: 7.2rem;
